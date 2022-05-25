@@ -18,3 +18,5 @@ library(knitr)
 include_graphics("mariners.png")
 
 ```
+
+![Mariners](mariners.jpg)
