@@ -9,6 +9,8 @@ My name is Owen Snyder and I am currently pursuing a Master of Statistics degree
   
 have been some of the most interesting and important ideas I have learned while completing a finance concentration for my master's degree. However, I am also a huge baseball fan (**Go Mariners**) and love to play around with MLB data in R, so I hope to include some of that here.
 
+Feel free to reach out at owsnyder@ncsu.edu
+
 
 
 ```{r out.width = "70px"}
