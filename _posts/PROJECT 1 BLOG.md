@@ -4,6 +4,6 @@ First, I had to determine what endpoints I wanted to build functions for. The Po
 
 At first, the most difficult part of the project for me was building the functions. However, once I had a couple working, I became much more efficient with how to build the rest of them. The real difficulty of this project was being able to push my work up to GitHub and make sure my repository and GitHub Pages was working correctly. This is an area in which I need much more practice in and need to get my issues with GitHub ironed out. Regarding what I would do differently in the future, I would want to work with less data. In retrospect, I could have only used the S&P 500 and Bitcoin data opposed to all four positions. This would have sped up the process of my data cleaning/wrangling and analysis portion of the project. However, thankfully finance is a topic of interest, so I genuinely enjoyed working with more data to identify market trends. 
 
-You can view my Project 1 here! 
+You can view my Project 1 here! https://github.com/owensnyder/ST558-Project-1/blob/main/st558-Project1-rmd.md
 
-NOTE: you can also 
+NOTE: you can also view my repositiory for the whole project "ST558-Project-1" when you naviagte to my main "owensnyder" page. There you will see the option to access my enitre Project 1 repository.
