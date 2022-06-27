@@ -6,7 +6,8 @@ At first, the most difficult part of the project for me was building the functio
 
 You can view my Project 1 here! https://github.com/owensnyder/ST558-Project-1/blob/main/st558-Project1-rmd.md
 
-You can view my Project 1 Repo here: https://github.com/owensnyder/ST558-Project-1
+You can view my Project 1 Repo here: https://github.com/owensnyder/ST558-Project-1  
+
 You can view my Project 1 Github Pages here: https://github.com/owensnyder/ST558-Project-1/blob/main/st558-Project1-rmd.md
 
 NOTE: you can also view my repositiory for the whole project "ST558-Project-1" when you naviagte to my main "owensnyder" page. There you will see the option to access my enitre Project 1 repository.
