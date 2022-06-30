@@ -17,4 +17,28 @@ rmarkdown::render("ST558 Blog3.Rmd",
 ```
 
 
-This class has already proved itself to be very beneficial when it comes to programming. I have finally became much more comfortable opening up R and performing my own data analysis. I think some of the most interesting and useful topics we've covered so far that have helped me the most has been learning the `tidyverse` and the regression techniques. 
+This class has already proved itself to be very beneficial when it comes to programming. I have finally became much more comfortable opening up R and performing my own data analysis. I think some of the most interesting and useful topics we've covered so far that have helped me the most has been learning the `tidyverse` and the regression techniques. Because we just had a homework assignment on regression, I will include an example of using the `tidyverse` with data. Another cool aspect of the `tidyverse` is the ability to use "piping" which makes data wrangling so much easier for me. Nesting function can become very hard to parse, and very easy to make mistakes. But by using piping, working with data becomes a more pleasant task.
+
+
+Consider the Iris data set.
+```{r warning=FALSE, message=FALSE}
+library(tidyverse)
+iris
+```
+
+I can utilize `tidyverse` functions to easily work with this data. For example, I can simply grab only Setosa species with a Sepal.Length less than 6.1 by doing the following:
+
+```{r}
+iris %>% filter(Species == 'setosa' & Sepal.Length < 6.1)
+
+
+```
+
+Building off of this example, I can then use the select() function to make this data call much easier to read. I have already used filter, so now we will select only the two columns that I filtered to see the data for these two variables easier.
+```{r}
+iris %>% select(Species,Sepal.Length) %>% filter(Species == 'setosa' & Sepal.Length < 6.1)
+
+```
+
+
+Now we have a much better idea of how the `tidyverse` works and how piping makes working with data easy!
