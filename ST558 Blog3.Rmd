@@ -23,7 +23,7 @@ This class has already proved itself to be very beneficial when it comes to prog
 Consider the Iris data set.
 ```{r warning=FALSE, message=FALSE}
 library(tidyverse)
-head(iris)
+iris
 ```
 
 I can utilize `tidyverse` functions to easily work with this data. For example, I can simply grab only Setosa species with a Sepal.Length less than 6.1 by doing the following:
