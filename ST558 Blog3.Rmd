@@ -8,7 +8,7 @@ output: github_document
 
 ```{r eval=FALSE, echo=FALSE}
 ## create a render function
-rmarkdown::render("St558 Blog3.Rmd",
+rmarkdown::render("ST558 Blog3.Rmd",
                   output_format = "github_document",
                   output_file = "_Rmd",
                   output_options = list(
