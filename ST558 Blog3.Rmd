@@ -1,0 +1,9 @@
+---
+title: "ST558 Blog3"
+author: "Owen Snyder"
+date: '2022-06-30'
+output: github_document
+---
+
+
+This class has already proved itself to be very beneficial when it comes to programming. I have finally became much more comfortable opening up R and performing my own data analysis. I think some of the most interesting and useful topics we've covered so far that have helped me the most has been learning the `tidyverse` and the regression techniques. 
