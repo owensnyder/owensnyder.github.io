@@ -20,24 +20,25 @@ basic exploratory data analysis, and a model fitting procedure.
 However, before we started, it was important that we figured out which
 variables we wanted to include in our EDA and model fitting. Once we
 described our variables of interest, we then decided to create variables
-that would encompass all the different subsets of data channel and
-weekday. This would make automation and EDA much more efficient. We then
-had a workable data set that we were happy with which allowed us to then
-split the data into a training and test set with a 70/30 split. The
-training data will be used for analysis and the test set will be used to
-compare our models. Next, we started our data analysis which included
+that would encompass all the different subsets of data channels and
+weekdays. This would make automation and EDA much more efficient. We
+then had a workable data set that we were happy with, which allowed us
+to then split the data into a training and test set with a 70/30 split.
+The training data will be used for analysis and the test set will be
+used to compare our models. Next, we started our EDA which included
 scatterplots, boxplots, and histograms along with contingency tables and
-summary statistics that describe how our Shares variable is associated
+summary statistics that describe how our shares variable is associated
 with different predictor variables.
 
 After we conducted an EDA, our next task was to use our variables of
 interest and deploy them into four different regression models. Ashlee
-and I each made one linear regression model, along with her Random
-Forest model and my Boosted Tree model. Just like the EDA, the
-regression models are automated for each of the six data channels. Now
-that we had our models built, we decided that we would use RMSE as our
-metric to determine the best model. Thus, we identified the lowest RMSE
-for each model fit and a winner was declared for each channel.
+and I each made one linear regression model (my full linear regression
+model and her polynomial regression model), along with her Random Forest
+model and my Boosted Tree model. Just like the EDA, the regression
+models are automated for each of the six data channels. Now that we had
+our models built, we decided that we would use RMSE as our metric to
+determine the best model. Thus, we identified the lowest RMSE for each
+model fit and a winner was declared for each channel.
 
 ## What would I do differently?
 
@@ -48,13 +49,13 @@ variables. However, we did feel like the variables we included were some
 of the most commonly referenced/used. If I had better computing power or
 “unlimited” resources, using a lot more variables and building more
 complex models would have been optimal. Another thing I would do
-differently is discuss the graphical procedures more in depth. I think
-some of these variables got a bit confusing especially with employing
-certain graph types to them. Part of this was due to there being so much
-data and a very wide range of values. In fact, I would have liked to
-include some ST503 topics of outlier removal to help improve some of the
-visuals on the graphs. However, I did feel like my histogram,
-scatterplot (links v. shares), and boxplots did a good job of
+differently is discuss the graphical procedures more in depth with my
+partner. I think some of these variables got a bit confusing especially
+when employing certain graph types to them. Part of this was due to
+there being so much data and a very wide range of values. In fact, I
+would have liked to include some ST503 topics of outlier removal to help
+improve some of the visuals on the graphs. However, I did feel like my
+histogram, scatterplot (links v. shares), and boxplots did a good job of
 summarizing some of the variables we used.
 
 ## What was the most difficult part for me?
