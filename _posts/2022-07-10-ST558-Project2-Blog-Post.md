@@ -5,10 +5,10 @@ Owen Snyder
 
 ## Links to Project
 
-Link to the Github
-[page](https://abmckeon.github.io/Project2McKeonSnyder/)  
-Link to the Github
-[repo](https://github.com/abmckeon/Project2McKeonSnyder)
+Link to the Github page:
+<https://abmckeon.github.io/Project2McKeonSnyder/>  
+Link to the Github repo:
+<https://github.com/abmckeon/Project2McKeonSnyder>
 
 ## The Scope of Project 2
 
