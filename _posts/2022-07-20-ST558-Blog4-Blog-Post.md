@@ -16,7 +16,7 @@ Boosting Tree procedure (note I am leaving out some mathematical
 formulas)
 
 1.  Initialize predictors as 0  
-2.  Find the residuals (observed-predicted), name that as set *r *
+2.  Find the residuals (observed-predicted), name that as set *r*
 3.  Fit a tree with *d* splits (*d+1* terminal nodes) treating the
     residuals as the response  
 4.  Update predictions  
@@ -109,8 +109,8 @@ boostFit
     ##  and n.minobsinnode = 10.
 
 Now we will use the RMSE metric to determine which model was best.
-Generally, we choose the model with the **lowest** RMSE. Also to note,
-there are many other metrics to choose from.
+Generally, we choose the model with the **lowest** RMSE. Note: this is
+not the only metric one should consider when choosing the “best” model.
 
 ``` r
 boostFit$results
